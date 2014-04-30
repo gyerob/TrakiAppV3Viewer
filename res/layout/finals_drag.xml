@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FinalsDragActivity" >
+    
+    <ImageView
+        android:id="@+id/bgportraitView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/portrait_light"
+        tools:ignore="ContentDescription" />
+    
+    <android.support.v4.view.ViewPager
+        android:id="@+id/dragViewPager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" >
+
+        <!-- PagerTitleStrip is lehet -->
+
+        <android.support.v4.view.PagerTabStrip
+            android:id="@+id/inputPagerTabStrip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:textSize="22sp" />
+    </android.support.v4.view.ViewPager>
+
+</RelativeLayout>

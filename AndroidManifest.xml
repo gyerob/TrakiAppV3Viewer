@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hu.gyerob.trakiapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat" >
+        <activity
+            android:name="hu.gyerob.trakiapp.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="hu.gyerob.trakiapp.InputActivity"
+            android:label="@string/title_activity_input" >
+        </activity>
+        <activity
+            android:name="hu.gyerob.trakiapp.OutputActivity"
+            android:label="@string/title_activity_list"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="hu.gyerob.trakiapp.FinalsActivity"
+            android:label="@string/title_activity_results"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="hu.gyerob.trakiapp.GalleryActivity"
+            android:label="@string/title_activity_gallery" >
+        </activity>
+        <activity
+            android:name="hu.gyerob.trakiapp.MapActivity"
+            android:label="@string/title_activity_map" >
+        </activity>
+        <activity
+            android:name="hu.gyerob.trakiapp.FinalsDragActivity"
+            android:label="@string/title_activity_finals_drag"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="hu.gyerob.trakiapp.FinalsSlalomActivity"
+            android:label="@string/title_activity_finals_slalom"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="hu.gyerob.trakiapp.PreferencesActivity"
+            android:label="@string/title_activity_preferences" >
+        </activity>
+    </application>
+
+</manifest>

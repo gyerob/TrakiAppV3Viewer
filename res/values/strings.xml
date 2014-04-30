@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TrakiApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="main_input">Adatok bevitele</string>
+    <string name="main_output">Adatok listázása</string>
+    <string name="title_activity_input">Adatok bevitele</string>
+    <string name="title_activity_list">Adatok listázása</string>
+    <string name="racer_title">Versenyzők</string>
+    <string name="trailer_title">Pórkocsis</string>
+    <string name="slalom_title">Szlalom</string>
+    <string name="drag_title">Gyorsulás</string>
+    <string name="data_name">Név</string>
+    <string name="data_number">#</string>
+    <string name="data_town">Város</string>
+    <string name="data_sex">Nő</string>
+    <string name="data_drag">Gyorsulás</string>
+    <string name="data_slalom">Szlalom</string>
+    <string name="data_trailer">Pótkocsis</string>
+    <string name="btn_save">Mentés</string>
+    <string name="btn_update">Frissítés</string>
+    <string name="btn_delete">Törlés</string>
+    <string name="data_time">Idő</string>
+    <string name="data_error">Hiba</string>
+    <string name="data_round">1. Kör</string>
+    <string name="data_finaltime">Végleges</string>
+    <string name="title_activity_results">Döntők</string>
+    <string name="main_finals">Döntők</string>
+    <string name="main_gallery">Galéria</string>
+    <string name="title_activity_gallery">Galéria</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="data_drag_time1">Idő 1</string>
+    <string name="data_drag_time2">Idő 2</string>
+    <string name="data_drag_besttime">Legjobb</string>
+    <string name="title_activity_finals_slalom">Szlalom Döntő</string>
+    <string name="title_activity_finals_drag">Gyorsulás Döntő</string>
+    <string name="itemPreferences">Beállítások</string>
+    <string name="title_activity_settings">Beállítások</string>
+    <string name="title_activity_preferences">Beállítások</string>
+    <string name="imgupload">Képfeltöltés</string>
+    <string name="update">Frissítés</string>
+    <string name="switchGalleryView">Nézetváltás</string>
+    <string name="main_map">Térkép</string>
+    <string name="title_activity_map">Térkép</string>
+
+</resources>

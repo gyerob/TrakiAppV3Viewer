@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/itemImageUpload"
+        android:title="@string/imgupload"/>
+    <item 
+        android:id="@+id/switchgalleryview" android:title="@string/switchGalleryView">
+    </item>
+
+</menu>
